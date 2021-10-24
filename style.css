@@ -1,0 +1,83 @@
+*{ /* para limpar o html */
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1280px;
+}
+
+nav {
+    float: right;
+    color: #766F68;
+}
+header nav  ul  li{
+    position: relative;
+    display: inline-block;
+    left: 200px;
+   list-style-type: none;
+   font-family: Roboto, sans-serif;
+    padding: 30px 20px 0 0;
+    font-size: 20px;
+    }
+
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    padding-left: 150px;
+    font-family: Roboto, sans-serif;
+    color:#D2872C;
+    font-size: 20px;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.title{
+    position: absolute;
+    top: 165px;
+    left: 450px;
+    font-size: 60px;
+    color: #766F68;
+    font-family: Roboto, sans-serif;
+}
+
+img{ 
+    height: 40%;
+    width: 30%;
+    position: absolute;
+    left: 820px;
+    top: 250px;
+}
+
+.text{
+    color: #766F68;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 325px;
+    left: 450px;
+}
+
+Button {
+    background-color:#D2872C; 
+    border: 2px solid;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 42px 15px 40px;
+    text-align: center;
+    display: relative;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 550px;
+  }
+  
+
+  .botao{  /* utilizei mais uma classe para o botão pra ajeitar o alinhamento do botão com o tezto */
+      padding: 0 400px;
+  }
